@@ -69,5 +69,6 @@ while(!stop)
     }
     if stop { break }
     application.updateWindows()
+    usleep(100)
 }
 print("leaving runloop\n----------------\n")
